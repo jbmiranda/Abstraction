@@ -1,0 +1,36 @@
+
+public class Employee {
+	//instance variable
+	int ID;
+	String FirstName;
+	String LastName;
+	float Salary;
+	int Age;
+	
+	public void displayemployeedetails()
+	{
+		System.out.println("ID: " + ID);
+		System.out.println("First name: " + FirstName);
+		System.out.println("Last name: " + LastName);
+		System.out.println("Age: " + Age);
+		System.out.println("Salary: " + Salary);
+	}
+	
+	public void setemployeedetails(int ID, String FirstName, 
+			String LastName, int Age, float Salary)
+	{
+		this.ID = ID;
+		this.FirstName = FirstName;
+		this.LastName = LastName;
+		this.Age = Age;
+		this.Salary = Salary;
+	}
+	
+	public static void main (String[] args) 
+	{
+		Employee employee = new Employee();
+		//System.out.println(employee);
+		employee.setemployeedetails(100, "Ernie", "Miranda", 25, 15000.52F);
+		employee.displayemployeedetails();
+	}
+}

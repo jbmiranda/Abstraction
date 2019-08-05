@@ -1,0 +1,9 @@
+/*
+ * 
+ */
+public class HelloWorld {
+	public static void main(String[] agrs) {
+		//Print message
+		System.out.println("Hello World!");
+	} 
+}

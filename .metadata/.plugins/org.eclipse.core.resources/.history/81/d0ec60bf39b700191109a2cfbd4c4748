@@ -1,0 +1,29 @@
+/*
+ * This is a Block Comment
+ */
+/**
+ * 
+ * @author Java This is a Documation comment
+ */
+// This is a Single-line comment
+
+public class HelloWorld 
+{
+	public static void main(String[] agrs) 
+	{
+		// Print message		
+		String name = "John Doe";
+		int age = 45;  
+		//System.out.println("Hello World!" + name);
+		System.out.println(String.format("name=%s, age=%s",name,age));
+		
+		//Sample of Type Conversion
+		//Up Casting
+		byte x = 100;
+		int y = x;
+		
+		//Down Casting
+		int a = 100;
+		byte b = (byte) a;
+	}
+}

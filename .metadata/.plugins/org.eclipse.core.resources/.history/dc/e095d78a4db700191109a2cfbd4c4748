@@ -1,0 +1,18 @@
+
+public class Employee {
+	//instance variable
+	int ID;
+	String FirstName;
+	String LastName;
+	float Salary;
+	int Age;
+	
+	public void displayemployeedetails()
+	{
+		System.out.println("ID: " + ID);
+		System.out.println("First name: " + FirstName);
+		System.out.println("Last name: " + LastName);
+		System.out.println("Age: " + Age);
+		System.out.println("Salary: " + Salary);
+	}
+}

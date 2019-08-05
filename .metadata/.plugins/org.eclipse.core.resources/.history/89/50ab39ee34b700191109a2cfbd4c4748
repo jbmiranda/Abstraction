@@ -1,0 +1,17 @@
+/*
+ * This is a Block Comment
+ */
+/**
+ * 
+ * @author Java This is a Documation comment
+ */
+// This is a Single-line comment
+
+public class HelloWorld 
+{
+	public static void main(String[] agrs) 
+	{
+		// Print message
+		System.out.println("Hello World!");
+	}
+}

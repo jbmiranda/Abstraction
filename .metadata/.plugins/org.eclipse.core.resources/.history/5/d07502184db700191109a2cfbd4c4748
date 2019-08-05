@@ -1,0 +1,8 @@
+
+public class Employee {
+	//instance variable
+	String FirstName;
+	String LastName;
+	float Salary;
+	int age;
+}
