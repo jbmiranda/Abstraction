@@ -61,6 +61,8 @@ public class HelloWorld
 	public void Hello() 
 	{
 		System.out.println("Hello World!");
+		Employee employee = new Employee();
+		employee.setemployeedetails(123, "ernie", "miranda", 25, 15000F);
 	}
 	
 	public void Hello(String Name) 
