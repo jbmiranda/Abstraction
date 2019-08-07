@@ -11,6 +11,10 @@ public class MessageTest {
 		mp = new DatabaseMessageProvider();
 		mr.setMessageProvider(mp);
 		mr.display();
+		
+		mr = new DialogBoxMessageRenderer();
+		mr.setMessageProvider(mp);
+		mr.display();
 	}
 
 }
