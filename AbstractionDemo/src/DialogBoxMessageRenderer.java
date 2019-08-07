@@ -1,12 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class DialogBoxMessageRenderer implements IMessageRenderer{
-	private IMessageProvider messageProvider;
-	@Override
-	public void setMessageProvider(IMessageProvider messageProvider) {
-		this.messageProvider = messageProvider;
-	}
-
+public class DialogBoxMessageRenderer extends BaseMessageRenderer implements IMessageRenderer{	
 	@Override
 	public void display() {
 		// TODO Auto-generated method stub

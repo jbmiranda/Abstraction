@@ -3,9 +3,16 @@ package Shapes;
 public class Rectangle implements IShape{
 
 	@Override
-	public void ComputeArea() {
+	public void ComputeArea2(float x, float y) {
 		// TODO Auto-generated method stub
-		System.out.println("Rectangle");
+		float Res = x * y;
+		System.out.println("Rectangle: " + Res);
+	}
+
+	@Override
+	public void ComputeArea1(float v) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
